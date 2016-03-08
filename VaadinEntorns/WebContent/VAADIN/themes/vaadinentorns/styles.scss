@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "vaadinentorns.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in vaadinentorns.scss */
+.vaadinentorns {
+  @include addons;
+  @include vaadinentorns;
+}
